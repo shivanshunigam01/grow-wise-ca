@@ -125,7 +125,7 @@ const DocumentChecklist = () => {
                   <Button
                     onClick={downloadChecklist}
                     size="sm"
-                    className="bg-gold text-primary hover:bg-gold-light"
+                    variant="gold"
                   >
                     <Download className="w-4 h-4 mr-2" />
                     Download
@@ -170,7 +170,7 @@ const DocumentChecklist = () => {
                   Our expert CAs can guide you through the entire process
                 </p>
                 <Link to="/contact">
-                  <Button className="bg-gold text-primary hover:bg-gold-light">
+                  <Button variant="gold">
                     Contact Our Experts
                   </Button>
                 </Link>

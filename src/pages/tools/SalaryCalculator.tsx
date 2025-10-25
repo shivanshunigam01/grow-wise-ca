@@ -113,7 +113,8 @@ const SalaryCalculator = () => {
 
                 <Button
                   onClick={calculateSalary}
-                  className="w-full bg-gold text-primary hover:bg-gold-light"
+                  className="w-full"
+                  variant="gold"
                   size="lg"
                 >
                   Calculate Take-Home

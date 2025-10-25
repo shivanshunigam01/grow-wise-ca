@@ -113,7 +113,8 @@ const AdvanceTaxCalculator = () => {
 
                 <Button
                   onClick={calculateTax}
-                  className="w-full bg-gold text-primary hover:bg-gold-light"
+                  className="w-full"
+                  variant="gold"
                   size="lg"
                 >
                   Calculate Advance Tax

@@ -123,7 +123,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <Button type="submit" size="lg" className="bg-gold text-primary hover:bg-gold-light w-full">
+                <Button type="submit" size="lg" variant="gold" className="w-full">
                   Send Message
                 </Button>
               </form>

@@ -96,7 +96,7 @@ const Services = () => {
               Every business is unique. Let's discuss how we can tailor our services to meet your specific requirements.
             </p>
             <Link to="/contact">
-              <Button size="lg" className="bg-gold text-primary hover:bg-gold-light shadow-gold">
+              <Button size="lg" variant="gold">
                 Schedule a Consultation
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

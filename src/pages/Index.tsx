@@ -54,7 +54,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
-                <Button size="lg" className="bg-gold text-primary hover:bg-gold-light shadow-gold">
+                <Button size="lg" variant="gold">
                   Book Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -136,7 +136,7 @@ const Index = () => {
               Let our expert CAs guide you towards financial success
             </p>
             <Link to="/contact">
-              <Button size="lg" className="bg-gold text-primary hover:bg-gold-light shadow-gold">
+              <Button size="lg" variant="gold">
                 Schedule Your Free Consultation
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

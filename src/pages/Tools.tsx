@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Calculator, TrendingUp, PiggyBank, FileText, CreditCard, Percent } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -70,7 +71,7 @@ const Tools = () => {
               <Link key={index} to={tool.path}>
                 <Card className="glass-card glass-card-hover p-8 h-full cursor-pointer group">
                   <div className={`w-16 h-16 bg-gradient-to-br ${tool.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                    <tool.icon className="w-8 h-8 text-white" />
+                    <tool.icon className="w-8 h-8 text-primary-foreground" />
                   </div>
                   
                   <h3 className="text-2xl font-bold mb-3 group-hover:text-gold transition-colors">
@@ -92,9 +93,9 @@ const Tools = () => {
               Contact our experts for personalized advice tailored to your specific needs.
             </p>
             <Link to="/contact">
-              <button className="px-8 py-3 bg-gold text-primary rounded-lg font-semibold hover:bg-gold-light transition-colors shadow-gold">
+              <Button variant="gold" size="lg">
                 Consult Our Experts
-              </button>
+              </Button>
             </Link>
           </Card>
         </div>

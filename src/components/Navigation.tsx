@@ -40,7 +40,7 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-            <Button variant="default" size="sm" className="bg-gold text-primary hover:bg-gold-light">
+            <Button variant="gold" size="sm" className="">
               <Phone className="w-4 h-4 mr-2" />
               Get Started
             </Button>
@@ -68,7 +68,7 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-            <Button variant="default" size="sm" className="w-full bg-gold text-primary hover:bg-gold-light">
+            <Button variant="gold" size="sm" className="w-full">
               <Phone className="w-4 h-4 mr-2" />
               Get Started
             </Button>

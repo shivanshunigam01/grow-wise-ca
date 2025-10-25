@@ -95,7 +95,8 @@ const EMICalculator = () => {
 
                 <Button
                   onClick={calculateEMI}
-                  className="w-full bg-gold text-primary hover:bg-gold-light"
+                  className="w-full"
+                  variant="gold"
                   size="lg"
                 >
                   Calculate EMI
